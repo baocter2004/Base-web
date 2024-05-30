@@ -1,0 +1,21 @@
+{
+    "name": "hp/base-web",
+    "autoload": {
+        "psr-4": {
+            "Hp\\BaseWeb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bao",
+            "email": "be93700@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "~1.6",
+        "eftec/bladeone": "^4.13",
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
