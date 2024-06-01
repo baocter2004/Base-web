@@ -3,7 +3,11 @@
     "autoload": {
         "psr-4": {
             "Hp\\BaseWeb\\": "src/"
-        }
+        },
+        "files": [
+            "helper.php"
+        ]
+
     },
     "authors": [
         {
